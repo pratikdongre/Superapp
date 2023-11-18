@@ -1,0 +1,92 @@
+.Container {
+  width: 50vw;
+  height: 100vh;
+  color: white;
+  padding: 1vw;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #1E1E1E;
+}
+
+.super {
+  color:  #72DB73;
+  font-size: 4.6rem;
+  font-family: 'Single Day', cursive;
+  font-weight: 400;
+  margin: 0.8rem 2rem auto;
+}
+
+.account {
+  color: #FFFFFF;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 1.2px;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  margin-top: -6px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+.submitButton {
+  box-shadow: none;
+  width: 50%;
+  margin-top: 1.5rem;
+  border-radius: 22px;
+  padding: 15px;
+  color: white;
+  background-color:  #72DB73;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+/* Form Styles */
+form input {
+  display: block;
+  margin: 30px auto;
+  padding: 13px;
+  width: 45%;
+  background-color: #292929;
+  border-radius: 6px;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+form label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+  margin-left: 0.1px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+form label input {
+  margin: 0px;
+  width: 20px;
+}
+
+/* Footer Styles */
+.footer p {
+  font-size: 14px;
+  color: #7C7C7C;
+  width: 65%;
+  margin: 20px auto;
+  text-align: left;
+  margin: 25px 10rem;
+  line-height: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
